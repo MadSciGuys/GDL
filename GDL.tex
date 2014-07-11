@@ -1,0 +1,69 @@
+% Copyright Travis Whitaker 2014
+% twhitak@its.jnj.com
+
+% 'draft' causes TeX to visually mark irreconcileable formatting, and print only figure frames.
+\documentclass[letterpaper,draft]{article}
+
+% Show page frames.
+%\usepackage{showframe}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\frenchspacing
+
+\begin{document}
+
+% Use roman page numbering before the start of the text proper.
+\pagenumbering{roman}
+
+% Minor hack to produce a title/subtitle.
+\title{Genealogy Description Language \\
+	\vspace{2mm} \large{Syntax, Grammar, Semantics, and Implementation}}
+\author{Travis Whitaker \\
+	\texttt{tmobile@csh.rit.edu}}
+\date{July 2014}
+\maketitle
+
+\begin{abstract}
+
+Proposed herein is the draft specification for \emph{Genealogy Description Language} or \emph{GDL},
+a compact declarative language for programming the construction of genealogies on arbitrary data
+sets and the subsequent parametric decomposition of genealogies. GDL aims to be agnostic towards
+specific problem domains and data models. A reference implementation in the \emph{Haskell} language
+is also discussed.
+
+\end{abstract}
+
+\pagebreak
+
+\tableofcontents
+%\listoftables
+%\listoffigures
+
+\pagebreak
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Introduction and Rationale}
+
+Lorem ipsum.
+
+\section{Genealogy Construction and Decomposition}
+
+Lorem ipsum.
+
+\section{Genealogy Description Language}
+
+Lorem ipsum.
+
+\section{Examples}
+
+Lorem ipsum.
+
+\section{Haskell Implementation Overview}
+
+Lorem Ipsum.
+
+\end{document}
